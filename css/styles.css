@@ -2,6 +2,7 @@
     margin: 0 auto;
     padding: 0 auto;
 }
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 48px;
@@ -26,8 +27,9 @@ body {
 .inline-block {
     display: inline-block;
     vertical-align: top;
-    padding-left: 2%;
+    padding-left: 10px;
     font-size: 20px;
+    color: white;
 }
 
 nav {
@@ -41,53 +43,63 @@ nav ul {
 }
 
 nav li{
-    padding-left: 25px;
-    padding-right: 25px; 
+    padding: 10px; 
+    display: inline-block;
 }
 
 .heroImg {
     width: 35%;
     background-color: #9E9EA6;
     border-radius: 18px;
+    padding: 15px;
+    margin: 50px auto;
 }
 
 img{
-    border-radius: 10px;
+    border-radius: 18px;
 }
+
 .jobTitle { 
     color: #0071A5;
+    padding:15px;
+}
+
+.aboutSelf {
+    padding-bottom:40px;
+    width: 76%;
 }
 
 .button {
     border-radius: 15;
     background-color: #4A5C71;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 45px 15px 45px;
     border-radius: 5px;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: 20px;
     font-weight: bold;
     color: white;
-
 }
 
 .content {
-    width: 500px;
+    /* width: 500px; */
     text-align: center;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
+
 }
 
-
 .bottomfooter { 
-    display: inline-block;
+    display: flex;
     justify-content:space-between;
     background-color: #859EA9;
     padding: 20px;
 }
 
 .bottomfooter li { 
-    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
 }
 
 .inline-block-footer {
@@ -96,4 +108,3 @@ img{
     padding-left: 15px;
     font-size: 20px;
 }
-
